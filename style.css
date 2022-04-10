@@ -1,0 +1,89 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+body {
+    height: 100vh;
+background-color: black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-image: url(imagenes/imgcopada.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.container {
+    width: 250px;
+    height: 450px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    display: inline-block;
+    text-align: center;
+    width: 176px;
+    height: 20px;
+    padding: 0;
+    border-radius: 8%;
+}
+
+.img-fondo {
+    background-image: url(imagenes/fondo.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: inherit;
+    border-radius: 18%;
+    border: 5px solid rgb(14, 13, 13);
+}
+
+.form {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+        
+}
+input[type="submit"] {
+    background-color: rgb(24, 17, 17);
+    color: wheat;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+input[type="button"] {
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    width: 120px;
+    background-color: wheat;
+    height: 45px;
+    margin-top: 10px;
+}
+h2 {
+    font-size: 26px;;
+    font-weight: 900;
+    text-decoration: underline;
+    margin: 20px;
+}
+.iconuser {
+    width: 45%;
+    border: 3px solid black;
+    border-radius: 50%;
+
+}
+
+
+
